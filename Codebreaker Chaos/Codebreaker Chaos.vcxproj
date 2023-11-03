@@ -320,6 +320,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.hpp" />
+    <ClInclude Include="configs.hpp" />
     <ClInclude Include="configs_scene.hpp" />
     <ClInclude Include="game_scene.hpp" />
     <ClInclude Include="new_game_scene.hpp" />

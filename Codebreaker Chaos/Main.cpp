@@ -7,6 +7,10 @@
 
 void Main() {
 
+	FontAsset::Register(U"title-font", 60, U"example/font/DotGothic16/DotGothic16-Regular.ttf", FontStyle::Bitmap);
+	FontAsset::Register(U"default-font", 25, U"example/font/DotGothic16/DotGothic16-Regular.ttf", FontStyle::Bitmap);
+
+
 	App manager;
 
 	manager.add<title_scene>(State::Title);

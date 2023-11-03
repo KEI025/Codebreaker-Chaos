@@ -13,6 +13,6 @@ public:
 
 private:
 
-
+	Stopwatch stop_watch{ StartImmediately::Yes };
 };
 
