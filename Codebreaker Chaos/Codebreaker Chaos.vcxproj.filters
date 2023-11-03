@@ -136,6 +136,15 @@
     <Filter Include="Resource Files\engine\font\min">
       <UniqueIdentifier>{1b103960-f11a-4515-b4f1-f59333ce00d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\scenes">
+      <UniqueIdentifier>{dc82b853-4d38-473b-b073-1be5f0b81f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\futures">
+      <UniqueIdentifier>{e075c644-55aa-4141-9a03-4317bfd42daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{0664b1d4-0bd6-4b77-891e-cccdc690b5df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -143,6 +152,18 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="title_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="new_game_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -775,6 +796,21 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="title_scene.hpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="new_game_scene.hpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene.hpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="configs_scene.hpp">
+      <Filter>Source Files\scenes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
