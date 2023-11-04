@@ -6,7 +6,19 @@ title_scene::title_scene(const InitData& init)
 void title_scene::update(){
 
 	if (9s >= stop_watch) {
+		new_game_button.update();
+		last_game_load_button.update();
+		exit_button.update();
 
+		if (new_game_button.is_click()) {
+
+		}
+		if (last_game_load_button.is_click()) {
+
+		}
+		if (exit_button.is_click()) {
+
+		}
 	}
 }
 
@@ -25,5 +37,8 @@ void title_scene::draw() const {
 		FontAsset(U"title-font")(kGameTitle).drawAt(Scene::Center().movedBy(-7, -143), Palette::Black);
 		FontAsset(U"title-font")(kGameTitle).drawAt(Scene::Center().movedBy(0,-150), Palette::Green);
 
+		new_game_button.draw();
+		last_game_load_button.draw();
+		exit_button.draw();
 	}
 }

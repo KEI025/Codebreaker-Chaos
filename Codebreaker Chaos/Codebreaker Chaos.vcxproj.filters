@@ -815,5 +815,8 @@
     <ClInclude Include="configs.hpp">
       <Filter>Source Files\utils</Filter>
     </ClInclude>
+    <ClInclude Include="simple_button.hpp">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
