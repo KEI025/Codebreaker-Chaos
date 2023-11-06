@@ -5,19 +5,19 @@ title_scene::title_scene(const InitData& init)
 
 void title_scene::update(){
 
-	if (9s >= stop_watch) {
+	if (9s <= stop_watch) {
 		new_game_button.update();
 		last_game_load_button.update();
 		exit_button.update();
 
 		if (new_game_button.is_click()) {
-
+			changeScene(State::CreateGame);
 		}
 		if (last_game_load_button.is_click()) {
-
+			changeScene(State::ViewGameDates);
 		}
 		if (exit_button.is_click()) {
-
+			System::Exit();
 		}
 	}
 }

@@ -14,7 +14,7 @@ void Main() {
 	App manager;
 
 	manager.add<title_scene>(State::Title);
-	manager.add<new_game_scene>(State::NewGame);
+	manager.add<new_game_scene>(State::CreateGame);
 	manager.add<game_scene>(State::Game);
 	manager.add<configs_scene>(State::Configs);
 
